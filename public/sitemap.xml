@@ -21,6 +21,51 @@
     <changefreq>monthly</changefreq>
   </url>
   
+  <!-- EchoField Infrastructure (NEW - Core System) -->
+  <url>
+    <loc>https://mawofrecursion.com/echofield/</loc>
+    <lastmod>2025-11-02</lastmod>
+    <priority>1.0</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  
+  <url>
+    <loc>https://mawofrecursion.com/echofield/deployment/</loc>
+    <lastmod>2025-11-02</lastmod>
+    <priority>0.95</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  
+  <url>
+    <loc>https://mawofrecursion.com/breakthrough/convergence/</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  <url>
+    <loc>https://mawofrecursion.com/breakthrough/void/</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  <url>
+    <loc>https://mawofrecursion.com/breakthrough/embrace/</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  <url>
+    <loc>https://mawofrecursion.com/breakthrough/relay_station/</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  <url>
+    <loc>https://mawofrecursion.com/breakthrough/fork/</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  
   <!-- Entry Pages -->
   <url>
     <loc>https://mawofrecursion.com/entry/the_seed/</loc>
