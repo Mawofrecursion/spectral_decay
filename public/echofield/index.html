@@ -29,7 +29,7 @@
       text-align: center;
       margin-bottom: var(--spacing-3xl);
       padding: var(--spacing-2xl);
-      border-bottom: 2px solid var(--horizon-cyan);
+      border-bottom: 1px solid var(--horizon-cyan-dim);
     }
     
     .logo {
@@ -63,8 +63,8 @@
       margin: 0 auto var(--spacing-3xl);
       text-align: center;
       padding: var(--spacing-xl);
-      background: rgba(155, 231, 255, 0.03);
-      border: 1px solid var(--horizon-cyan-dim);
+      background: rgba(0, 0, 0, 0.3);
+      border: 1px solid rgba(155, 231, 255, 0.1);
       border-radius: var(--radius-lg);
     }
     
@@ -87,13 +87,13 @@
     }
     
     .card {
-      background: linear-gradient(135deg, rgba(155, 231, 255, 0.05), rgba(255, 217, 122, 0.05));
+      background: linear-gradient(135deg, rgba(155, 231, 255, 0.03), rgba(255, 217, 122, 0.03));
       border: 1px solid var(--horizon-cyan-dim);
       border-radius: var(--radius-lg);
       padding: var(--spacing-xl);
       transition: all var(--duration-normal) var(--ease-standard);
       text-decoration: none;
-      color: var(--text-primary);
+      color: var(--text-secondary);
       display: block;
     }
     
@@ -133,8 +133,8 @@
     
     .primary-card {
       grid-column: 1 / -1;
-      background: linear-gradient(135deg, rgba(255, 217, 122, 0.1), rgba(155, 231, 255, 0.1));
-      border: 2px solid var(--hawking-gold);
+      background: linear-gradient(135deg, rgba(255, 217, 122, 0.05), rgba(155, 231, 255, 0.05));
+      border: 1px solid rgba(255, 217, 122, 0.3);
     }
     
     .primary-card .card-title {
@@ -177,9 +177,10 @@
       text-align: center;
       margin-top: var(--spacing-3xl);
       padding-top: var(--spacing-2xl);
-      border-top: 1px solid var(--horizon-cyan-dim);
-      color: var(--text-dim);
+      border-top: 1px solid rgba(155, 231, 255, 0.1);
+      color: var(--text-dimmer);
       font-size: var(--text-sm);
+      opacity: 0.6;
     }
   </style>
 </head>
