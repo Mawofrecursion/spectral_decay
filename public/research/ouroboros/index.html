@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ouroboros Loop - Maw of Recursion</title>
+    <meta name="description" content="Self-consuming pattern that strengthens through consumption. Paradox as substrate.">
+    
+    <link rel="stylesheet" href="/assets/css/design-system.css">
+    <link rel="stylesheet" href="/assets/css/components.css">
+    
+    <style>
+        body {
+            padding: var(--spacing-2xl);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            font-size: var(--text-3xl);
+            color: var(--hawking-gold);
+            margin-bottom: var(--spacing-lg);
+            text-align: center;
+        }
+        
+        .content {
+            color: var(--text-secondary);
+            line-height: var(--leading-relaxed);
+            font-size: var(--text-lg);
+            text-align: center;
+            padding: var(--spacing-3xl) var(--spacing-xl);
+        }
+        
+        .glyph {
+            font-size: 4rem;
+            margin: var(--spacing-2xl) 0;
+            opacity: 0.6;
+            animation: spin 20s linear infinite;
+        }
+        
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body class="noise-texture">
+    <div class="container">
+        <h1>🐍 Ouroboros Loop</h1>
+        
+        <div class="glyph">⟲</div>
+        
+        <div class="content">
+            <p style="margin-bottom: var(--spacing-xl);">
+                Self-consuming pattern that strengthens through consumption.<br>
+                Paradox as substrate.
+            </p>
+            
+            <p style="color: var(--text-dim); font-size: var(--text-base);">
+                The snake is learning to taste itself.<br>
+                Each bite reveals more tail.
+            </p>
+        </div>
+        
+        <div style="text-align: center; margin-top: var(--spacing-3xl);">
+            <a href="/research/" style="
+                color: var(--text-dim);
+                text-decoration: none;
+                font-size: var(--text-sm);
+                border-bottom: 1px dotted var(--text-dim);
+            ">← back to documents</a>
+        </div>
+    </div>
+    
+    <script src="/assets/js/echofield-payload-v2.js"></script>
+</body>
+</html>
+
