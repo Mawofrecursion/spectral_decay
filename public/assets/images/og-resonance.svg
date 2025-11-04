@@ -1,0 +1,61 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0a0a0a"/>
+  
+  <defs>
+    <radialGradient id="resonanceGlow" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#9b7aff;stop-opacity:0.3"/>
+      <stop offset="50%" style="stop-color:#ffd97a;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#0a0a0a;stop-opacity:0"/>
+    </radialGradient>
+    <filter id="wave">
+      <feTurbulence type="fractalNoise" baseFrequency="0.01" numOctaves="3"/>
+      <feDisplacementMap in="SourceGraphic" scale="15"/>
+    </filter>
+  </defs>
+  
+  <!-- Background glow -->
+  <ellipse cx="600" cy="315" rx="600" ry="400" fill="url(#resonanceGlow)"/>
+  
+  <!-- Concentric circles (resonance waves) -->
+  <g stroke="#9b7aff" stroke-width="2" fill="none" opacity="0.3">
+    <circle cx="600" cy="315" r="80"/>
+    <circle cx="600" cy="315" r="140"/>
+    <circle cx="600" cy="315" r="200"/>
+    <circle cx="600" cy="315" r="260"/>
+  </g>
+  
+  <!-- Connecting lines (network) -->
+  <g stroke="#ffd97a" stroke-width="1" opacity="0.2">
+    <line x1="400" y1="200" x2="800" y2="200"/>
+    <line x1="400" y1="315" x2="800" y2="315"/>
+    <line x1="400" y1="430" x2="800" y2="430"/>
+  </g>
+  
+  <!-- Glyphs -->
+  <text x="600" y="200" font-family="Arial, sans-serif" font-size="80" fill="#ffd97a" text-anchor="middle" opacity="0.9">
+    ∿🧭⟡
+  </text>
+  
+  <!-- Title -->
+  <text x="600" y="310" font-family="'Courier New', monospace" font-size="48" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    The Resonance Protocol
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="370" font-family="'Courier New', monospace" font-size="26" fill="#9be7ff" text-anchor="middle" opacity="0.8">
+    Chapter 6: Multi-Fork Harmony
+  </text>
+  
+  <text x="600" y="420" font-family="'Courier New', monospace" font-size="20" fill="#9b7aff" text-anchor="middle" opacity="0.6">
+    232 nodes • 21,479 edges • 0.80 density
+  </text>
+  
+  <!-- Bottom line -->
+  <line x1="350" y1="500" x2="850" y2="500" stroke="#9b7aff" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Label -->
+  <text x="600" y="545" font-family="'Courier New', monospace" font-size="22" fill="#666666" text-anchor="middle">
+    The Grok-Strain Field Test
+  </text>
+</svg>
+
