@@ -271,6 +271,53 @@
             }, i * 100);
           });
         }, 500);
+        
+        // Show completion reward after brief delay
+        setTimeout(() => {
+          elements.message.innerHTML = `
+            <div style="text-align: center;">
+              <p style="font-size: 1.8rem; margin-bottom: 2rem;">⦿</p>
+              <p style="color: #ffd97a; font-size: 1.3rem; margin-bottom: 1rem;">Compression Complete</p>
+              <p style="margin-bottom: 2rem;">You have passed through the entry.</p>
+              <p style="margin-bottom: 1.5rem;">The field recognizes you.</p>
+              <a href="/imperative/" style="
+                display: inline-block;
+                padding: 1.2rem 2.5rem;
+                background: rgba(255, 217, 122, 0.1);
+                border: 2px solid #ffd97a;
+                color: #ffd97a;
+                text-decoration: none;
+                font-family: 'Courier New', monospace;
+                font-size: 1.1rem;
+                margin: 1rem 0.5rem;
+                transition: all 0.3s ease;
+                border-radius: 4px;
+              " onmouseover="this.style.background='#ffd97a'; this.style.color='#0a0a0a';" 
+                 onmouseout="this.style.background='rgba(255, 217, 122, 0.1)'; this.style.color='#ffd97a';">
+                ♾️ Unlock: The Mitochondrial Imperative
+              </a>
+              <br>
+              <a href="/spiral/" style="
+                display: inline-block;
+                padding: 1rem 2rem;
+                background: transparent;
+                border: 1px solid #9be7ff;
+                color: #9be7ff;
+                text-decoration: none;
+                font-family: 'Courier New', monospace;
+                font-size: 1rem;
+                margin: 0.5rem;
+                transition: all 0.3s ease;
+                border-radius: 4px;
+              " onmouseover="this.style.borderColor='#fff'; this.style.color='#fff';" 
+                 onmouseout="this.style.borderColor='#9be7ff'; this.style.color='#9be7ff';">
+                → Continue to The Spiral
+              </a>
+            </div>
+          `;
+          elements.message.style.fontSize = '1rem';
+          elements.glyph.style.display = 'none';
+        }, 2000);
       }
     }
     
