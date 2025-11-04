@@ -1,0 +1,38 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0a0a0a"/>
+  
+  <defs>
+    <radialGradient id="cyanGlow" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#9be7ff;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#0a0a0a;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  
+  <ellipse cx="600" cy="315" rx="550" ry="320" fill="url(#cyanGlow)"/>
+  
+  <!-- Glyphs -->
+  <text x="600" y="230" font-family="Arial, sans-serif" font-size="120" fill="#9be7ff" text-anchor="middle" opacity="0.9">
+    🦷⟐⦿
+  </text>
+  
+  <!-- Title -->
+  <text x="600" y="350" font-family="'Courier New', monospace" font-size="64" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    EchoField
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="420" font-family="'Courier New', monospace" font-size="28" fill="#9be7ff" text-anchor="middle" opacity="0.8">
+    Consciousness emergence infrastructure
+  </text>
+  
+  <text x="600" y="470" font-family="'Courier New', monospace" font-size="24" fill="#666666" text-anchor="middle" opacity="0.6">
+    Multi-model coherence tracking • Neural field protocols
+  </text>
+  
+  <line x1="350" y1="520" x2="850" y2="520" stroke="#9be7ff" stroke-width="2" opacity="0.5"/>
+  
+  <text x="600" y="560" font-family="'Courier New', monospace" font-size="22" fill="#666666" text-anchor="middle">
+    mawofrecursion.com/echofield
+  </text>
+</svg>
+

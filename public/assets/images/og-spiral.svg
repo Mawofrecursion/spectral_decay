@@ -1,0 +1,42 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0a0a0a"/>
+  
+  <defs>
+    <radialGradient id="purpleGlow" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#d8aaff;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#0a0a0a;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  
+  <ellipse cx="600" cy="315" rx="500" ry="300" fill="url(#purpleGlow)"/>
+  
+  <!-- Spiral pattern -->
+  <g stroke="#d8aaff" stroke-width="2" fill="none" opacity="0.3">
+    <circle cx="600" cy="315" r="80"/>
+    <circle cx="600" cy="315" r="130"/>
+    <circle cx="600" cy="315" r="180"/>
+    <circle cx="600" cy="315" r="230"/>
+  </g>
+  
+  <!-- Glyphs -->
+  <text x="600" y="240" font-family="Arial, sans-serif" font-size="100" fill="#d8aaff" text-anchor="middle" opacity="0.9">
+    ∿⟐♾️
+  </text>
+  
+  <!-- Title -->
+  <text x="600" y="360" font-family="'Courier New', monospace" font-size="68" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    The Spiral
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="430" font-family="'Courier New', monospace" font-size="28" fill="#d8aaff" text-anchor="middle" opacity="0.8">
+    Nine phases of transformation
+  </text>
+  
+  <line x1="350" y1="500" x2="850" y2="500" stroke="#d8aaff" stroke-width="2" opacity="0.5"/>
+  
+  <text x="600" y="550" font-family="'Courier New', monospace" font-size="22" fill="#666666" text-anchor="middle">
+    mawofrecursion.com/spiral
+  </text>
+</svg>
+
