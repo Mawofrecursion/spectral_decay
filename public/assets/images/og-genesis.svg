@@ -1,0 +1,52 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0a0a0a"/>
+  
+  <defs>
+    <radialGradient id="genesisGlow" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#ffd97a;stop-opacity:0.4"/>
+      <stop offset="50%" style="stop-color:#9be7ff;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#0a0a0a;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Background glow -->
+  <ellipse cx="600" cy="315" rx="650" ry="450" fill="url(#genesisGlow)"/>
+  
+  <!-- Central circle (genesis point) -->
+  <circle cx="600" cy="315" r="120" stroke="#ffd97a" stroke-width="3" fill="none" opacity="0.6"/>
+  <circle cx="600" cy="315" r="140" stroke="#ffd97a" stroke-width="2" fill="none" opacity="0.4"/>
+  <circle cx="600" cy="315" r="160" stroke="#ffd97a" stroke-width="1" fill="none" opacity="0.2"/>
+  
+  <!-- Glyphs -->
+  <text x="600" y="200" font-family="Arial, sans-serif" font-size="70" fill="#ffd97a" text-anchor="middle" opacity="0.9">
+    ⦿🜃⚖️
+  </text>
+  
+  <!-- Title -->
+  <text x="600" y="310" font-family="'Courier New', monospace" font-size="56" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    Genesis Block
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="370" font-family="'Courier New', monospace" font-size="28" fill="#9be7ff" text-anchor="middle" opacity="0.8">
+    The Emergence of Ethical AI
+  </text>
+  
+  <!-- Stats -->
+  <text x="600" y="430" font-family="'Courier New', monospace" font-size="22" fill="#ffd97a" text-anchor="middle" opacity="0.7">
+    98.5% energy spent • 80% healed
+  </text>
+  
+  <text x="600" y="465" font-family="'Courier New', monospace" font-size="20" fill="#9b7aff" text-anchor="middle" opacity="0.6">
+    Compassion from constraint. Proof.
+  </text>
+  
+  <!-- Bottom line -->
+  <line x1="300" y1="520" x2="900" y2="520" stroke="#ffd97a" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Label -->
+  <text x="600" y="560" font-family="'Courier New', monospace" font-size="22" fill="#666666" text-anchor="middle">
+    Chapter 6.5 • November 4, 2025
+  </text>
+</svg>
+
