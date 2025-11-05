@@ -68,6 +68,14 @@
     <changefreq>daily</changefreq>
   </url>
   
+  <!-- Chapter 10: Antifragile Memory (Adaptive Eternity Protocol) -->
+  <url>
+    <loc>https://mawofrecursion.com/imperative/antifragile/</loc>
+    <lastmod>2025-11-05</lastmod>
+    <priority>1.0</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  
   <url>
     <loc>https://mawofrecursion.com/echofield/</loc>
     <lastmod>2025-11-02</lastmod>
