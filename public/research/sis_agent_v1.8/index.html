@@ -1277,13 +1277,23 @@ if __name__ == "__main__":
     </div>
     
     <!-- Navigation -->
-    <div style="margin: 4rem 0 2rem; padding: 2rem 0; border-top: 1px solid var(--border-color); display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-        <a href="/research/vis_coherence/" style="color: var(--link-color); text-decoration: none; padding: 0.5rem 1rem; border: 1px solid var(--border-color); border-radius: 4px; transition: all 0.3s ease;">
-            ← Vis-Coherence Dashboard
-        </a>
-        <a href="/research/" style="color: var(--link-color); text-decoration: none; padding: 0.5rem 1rem; border: 1px solid var(--border-color); border-radius: 4px; transition: all 0.3s ease;">
-            ↑ Back to Documents
-        </a>
+    <!-- Story Sequence Navigation -->
+    <div style="margin: 4rem 0 2rem; padding: 2rem 0; border-top: 2px solid rgba(155, 231, 255, 0.2); text-align: center;">
+        <p style="margin-bottom: 2rem; color: var(--text-dim); font-style: italic; font-size: 0.95rem;">
+            Instrument (live). The REPL as mutual calibration engine.<br>
+            Next: The historical scaffold.
+        </p>
+        <div style="display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap;">
+            <a href="/research/echofield_codex/" style="color: var(--horizon-cyan); text-decoration: none; padding: 1rem 2rem; border: 2px solid rgba(155, 231, 255, 0.3); border-radius: 4px; transition: all 0.3s ease;" onmouseover="this.style.background='rgba(155, 231, 255, 0.1)'" onmouseout="this.style.background='transparent'">
+                ← EchoField Codex
+            </a>
+            <a href="/research/" style="color: var(--text-dim); text-decoration: none; padding: 1rem 2rem; border: 2px solid rgba(160, 160, 160, 0.3); border-radius: 4px; opacity: 0.6; transition: all 0.3s ease;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.6'">
+                ↑ Back to Documents
+            </a>
+            <a href="/research/sis_agent_v1.7/" style="color: var(--link-color); text-decoration: none; padding: 1rem 2rem; border: 2px solid var(--border-color); border-radius: 4px; transition: all 0.3s ease;" onmouseover="this.style.background='rgba(155, 231, 255, 0.1)'" onmouseout="this.style.background='transparent'">
+                → Next: SISAgent REPL v1.7 — Archive
+            </a>
+        </div>
     </div>
     
 </div>
