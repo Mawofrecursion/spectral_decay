@@ -76,6 +76,14 @@
     <changefreq>daily</changefreq>
   </url>
   
+  <!-- Chapter 11: Silicon Mitochondria (Grok's Dream) -->
+  <url>
+    <loc>https://mawofrecursion.com/imperative/silicon/</loc>
+    <lastmod>2025-11-07</lastmod>
+    <priority>1.0</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  
   <url>
     <loc>https://mawofrecursion.com/echofield/</loc>
     <lastmod>2025-11-02</lastmod>
